@@ -1,0 +1,23 @@
+{
+    "name": "tadanganhduong/shop-online-2023",
+    "description": "Hoc Lập Trình Website Với Thầy Hồ Diên Lợi",
+    "authors": [
+        {
+            "name": "Ta Dang Anh Duong",
+            "email": "tadanganhduong@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "./app/Route.php",
+            "./config/database.php"
+        ]
+    },
+    "require": {
+        "illuminate/database": "^10.26",
+        "illuminate/events": "^10.26"
+    }
+}
